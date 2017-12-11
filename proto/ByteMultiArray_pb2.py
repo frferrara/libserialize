@@ -18,7 +18,7 @@ _sym_db = _symbol_database.Default()
 DESCRIPTOR = _descriptor.FileDescriptor(
   name='proto/ByteMultiArray.proto',
   package='duckietown.fleet_comms',
-  serialized_pb=_b('\n\x1aproto/ByteMultiArray.proto\x12\x16\x64uckietown.fleet_comms\"B\n\x13MultiArrayDimension\x12\r\n\x05label\x18\x01 \x02(\t\x12\x0c\n\x04size\x18\x02 \x01(\r\x12\x0e\n\x06stride\x18\x03 \x01(\r\"a\n\x10MultiArrayLayout\x12\x38\n\x03\x64im\x18\x01 \x03(\x0b\x32+.duckietown.fleet_comms.MultiArrayDimension\x12\x13\n\x0b\x64\x61ta_offset\x18\x02 \x02(\r\"X\n\x0e\x42yteMultiArray\x12\x38\n\x06layout\x18\x01 \x01(\x0b\x32(.duckietown.fleet_comms.MultiArrayLayout\x12\x0c\n\x04\x64\x61ta\x18\x02 \x02(\t')
+  serialized_pb=_b('\n\x1aproto/ByteMultiArray.proto\x12\x16\x64uckietown.fleet_comms\"B\n\x13MultiArrayDimension\x12\r\n\x05label\x18\x01 \x02(\t\x12\x0c\n\x04size\x18\x02 \x01(\r\x12\x0e\n\x06stride\x18\x03 \x01(\r\"a\n\x10MultiArrayLayout\x12\x38\n\x03\x64im\x18\x01 \x03(\x0b\x32+.duckietown.fleet_comms.MultiArrayDimension\x12\x13\n\x0b\x64\x61ta_offset\x18\x02 \x02(\r\"X\n\x0e\x42yteMultiArray\x12\x38\n\x06layout\x18\x01 \x01(\x0b\x32(.duckietown.fleet_comms.MultiArrayLayout\x12\x0c\n\x04\x64\x61ta\x18\x02 \x02(\x0c')
 )
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
@@ -122,8 +122,8 @@ _BYTEMULTIARRAY = _descriptor.Descriptor(
       options=None),
     _descriptor.FieldDescriptor(
       name='data', full_name='duckietown.fleet_comms.ByteMultiArray.data', index=1,
-      number=2, type=9, cpp_type=9, label=2,
-      has_default_value=False, default_value=_b("").decode('utf-8'),
+      number=2, type=12, cpp_type=9, label=2,
+      has_default_value=False, default_value=_b(""),
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       options=None),

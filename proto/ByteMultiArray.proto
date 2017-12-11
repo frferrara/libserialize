@@ -15,5 +15,5 @@ message MultiArrayLayout {
 
 message ByteMultiArray {
     optional MultiArrayLayout layout = 1;
-    required string           data   = 2;
+    required bytes            data   = 2;
 }
